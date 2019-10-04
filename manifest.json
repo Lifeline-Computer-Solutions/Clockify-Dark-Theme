@@ -1,0 +1,41 @@
+{
+    "name": "Clockify Dark",
+    "version": "1.0",
+    "description": "Dark Theme for Clockify.",
+    "permissions": ["activeTab","declarativeContent","storage"],
+    "content_scripts":
+    [
+        {
+           "matches":    ["https://clockify.me/*"],
+           "css":        ["dark.css"],
+           "js":         ["scripts.js"],
+           "run_at": "document_end"
+        }
+    ],
+    "background":
+    {
+        "scripts": ["background.js", "hot-reload.js", "scripts.js"],
+        "persistent": false
+    },
+    "page_action":
+    {
+      "default_popup": "popup.html",
+      "default_icon":
+      {
+        "16": "images/clockify16.png",
+        "32": "images/clockify32.png",
+        "48": "images/clockify48.png",
+        "128": "images/clockify128.png"
+      },
+      "icons":
+      {
+          "16": "images/clockify16.png",
+          "32": "images/clockify32.png",
+          "48": "images/clockify48.png",
+          "128": "images/clockify128.png"
+      }
+    },
+
+    "options_page": "options.html",
+    "manifest_version": 2
+}

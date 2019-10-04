@@ -1,0 +1,113 @@
+/*
+Color Pallet:
+Background: #323232
+Foreground: #000
+Text: #ccc
+
+
+*/
+body{
+background-color: #323232 !important;
+color: #ccc !important;
+}
+
+.cl-main-wrapper .cl-layout-aside{
+  background: #000 !important;
+}
+.cl-offcanvas-collapse{
+  background: #000 !important;
+}
+.cl-navbar-light .cl-navbar-nav .cl-nav-link,
+.cl-navbar-light .cl-navbar-nav .cl-nav-link:focus,
+.cl-navbar-light .cl-navbar-nav .cl-nav-link:hover,
+.cl-navbar-light .cl-navbar-nav .responsivetabs-more a.cl-dropdown-toggle,
+.cl-navbar-light .cl-navbar-nav .responsivetabs-more a.cl-dropdown-toggle:focus,
+.cl-navbar-light .cl-navbar-nav .responsivetabs-more a.cl-dropdown-toggle:hover,
+.responsivetabs-more .cl-navbar-light .cl-navbar-nav a.cl-dropdown-toggle,
+.responsivetabs-more .cl-navbar-light .cl-navbar-nav a.cl-dropdown-toggle:focus,
+.responsivetabs-more .cl-navbar-light .cl-navbar-nav a.cl-dropdown-toggle:hover {
+  color: #ccc !important;
+}
+.cl-card{
+  background-color: #000 !important;
+}
+.cl-redesign [type=text], .modal-dialog [type=text]{
+  color: #ccc !important;
+}
+time-tracker-entry {
+  border-bottom: 1px solid #424242 !important;
+}
+.cl-redesign .cl-input-timetracker-main:focus, .cl-redesign .cl-input-timetracker-main:hover,
+.modal-dialog .cl-input-timetracker-main:focus, .modal-dialog .cl-input-timetracker-main:hover,
+.data-panel-wrapper
+{
+  border: 1px solid #424242 !important;
+}
+.cl-form-control{
+  background-color: #000 !important;
+}
+.cl-card{
+  border: 1px solid #424242 !important;
+}
+time-tracker-recorder .cl-border-bottom{
+  border-bottom: 1px solid #424242 !important;
+}
+.cl-card-header{
+  background-color: darkorange !important;
+  border-bottom: none !important;
+}
+.cl-h6, h6{
+  color: #000 !important;
+}
+.cl-badge-same-entries, .cl-badge-tag {
+  background: #000 !important;
+}
+.cl-collapse-nav-button svg path {
+  fill: #ccc !important;
+}
+.cl-collapse-nav-button {
+  background: #000 !important;
+}
+.cl-sidebar-container .cl-nav-item.cl-active .cl-nav-link,
+.cl-sidebar-container .cl-nav-item.cl-active .responsivetabs-more a.cl-dropdown-toggle,
+.cl-sidebar-container .cl-nav-link.cl-active,
+.cl-sidebar-container .responsivetabs-more a.cl-active.cl-dropdown-toggle,
+.responsivetabs-more .cl-sidebar-container .cl-nav-item.cl-active a.cl-dropdown-toggle,
+.responsivetabs-more .cl-sidebar-container a.cl-active.cl-dropdown-toggle {
+  background: #424242 !important;
+}
+.cl-sidebar-container .cl-nav-item:before {
+  background: #424242 !important;
+}
+.cl-collapse{
+  background: #323232 !important;
+}
+ .cl-single-date-picker input[type=text]:disabled{
+  color: white !important;
+}
+.data-panel-item, .cl-pagination-pages, .cl-page-link, .cl-btn-outline-light,
+.cl-dropdown-menu, .cl-collapse-content{
+  background: #000 !important;
+}
+.data-panel-item-title, .data-panel-item-subtitle, .data-panel-item-action-time{
+  color: #ccc !important;
+}
+.data-panel-header{
+  background: darkorange !important;
+}
+.data-panel-header-title-filter, .cl-dashboard-card-header-item .cl-h4{
+  color: #000 !important;
+}
+.cl-main-horizontal-chart-container--progress--bar{
+  background: #424242 !important;
+}
+div div .cl-float-left, .cl-dropdown-item, .cl-dropdown-menu{
+  color: #ccc !important;
+}
+.cl-dropdown-item.cl-open, .cl-dropdown-item:focus, .cl-dropdown-item:hover,
+.cl-dropdown-item.cl-active{
+  background: #424242 !important;
+}
+.cl-items-per-page{
+  color: #ccc !important;
+}
